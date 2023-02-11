@@ -1,0 +1,15 @@
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\bin\Debug\net7.0\FunctioalErrorHandling.exe
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\bin\Debug\net7.0\FunctioalErrorHandling.deps.json
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\bin\Debug\net7.0\FunctioalErrorHandling.runtimeconfig.json
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\bin\Debug\net7.0\FunctioalErrorHandling.dll
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\bin\Debug\net7.0\FunctioalErrorHandling.pdb
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\FunctioalErrorHandling.csproj.AssemblyReference.cache
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\FunctioalErrorHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\FunctioalErrorHandling.AssemblyInfoInputs.cache
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\FunctioalErrorHandling.AssemblyInfo.cs
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\FunctioalErrorHandling.csproj.CoreCompileInputs.cache
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\FunctioalErrorHandling.dll
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\refint\FunctioalErrorHandling.dll
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\FunctioalErrorHandling.pdb
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\FunctioalErrorHandling.genruntimeconfig.cache
+C:\pri-repos\FunctioalErrorHandling\FunctioalErrorHandling\obj\Debug\net7.0\ref\FunctioalErrorHandling.dll
