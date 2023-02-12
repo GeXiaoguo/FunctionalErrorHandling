@@ -2,15 +2,53 @@
 
 while (true)
 {
+    Console.WriteLine("----------------------------------------------------");
     try
     {
-        int data = Query.Read();
+        int? data = null;
+        try
+        {
+            data = Query.Read();
+        }
+        catch (Exception e)
+        { 
+            Console.WriteLine($"can not read data. error:{e.Message}");
+            continue;
+        }
+        
         Console.WriteLine($"current value: {data}");
         Console.Write("divide it by: ");
         string input = Console.ReadLine();
-        int divider = int.Parse(input);
-        int result = Domain.calculate(data, divider);
-        Repository.Save(result);
+        int? divisor = null;
+        try
+        {
+            divisor = int.Parse(input);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"{input} is not valid a integer");
+            continue;
+        }
+        int? result = null;
+        try 
+        {
+            result = Domain.calculate(data.Value, divisor.Value);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"{data.Value} can not be divided by {divisor.Value}. error:{e.Message}");
+            continue;
+        }
+        try 
+        {
+            Repository.Save(result.Value);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine($"saving {result.Value} failed. error:{e.Message}");
+            continue;
+        }
+
         Console.WriteLine($"{result} saved");
     }
     catch (Exception e)
@@ -25,6 +63,7 @@ public static class Domain
 public static class Query
 {
     public static int Read() => EF.Read();
+    public static Result<int, Exception> SafeRead() => Result<int, Exception>.Invoke(EF.Read);
 }
 public static class Repository
 {
